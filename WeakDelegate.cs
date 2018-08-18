@@ -3,7 +3,7 @@ using Renko.Events.Internal;
 
 namespace Renko.Events
 {
-	public class WeakDelegateBase<T> where T : class {
+	public abstract class WeakDelegateBase<T> where T : class {
 
 		protected MethodProvider<T> provider;
 
